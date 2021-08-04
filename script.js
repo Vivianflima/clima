@@ -54,7 +54,7 @@ function showInfo(json){
   document.querySelector('.senseInfo').innerHTML = `${json.sensterm}<sup>ºC</sup>`;
   document.querySelector('.ventoInfo').innerHTML = `${json.windSpeed}<span>km/h</span>`;
   document.querySelector('.temp img').setAttribute('src',`http://openweathermap.org/img/wn/${json.tempIcon}@2x.png`);
-  document.querySelector('.tempDesc').innerHTML = `${json.icondesc}`;
+  document.querySelector('.tempDesc').innerHTML = `${json.icondesc}`.toUpperCase();
   document.querySelector('.tempMaxInfo').innerHTML = `${json.temp_max}<sup>ºC</sup>`;
   document.querySelector('.tempMinInfo').innerHTML = `${json.temp_min}<sup>ºC</sup>`;
   document.querySelector('.ventoPonto').style.transform = `rotate(${json.windAngle-90}deg)`;

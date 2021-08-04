@@ -24,7 +24,7 @@ h1 {
 
 .busca {
     display: flex;
-    width: 400px;
+    width: 300px;
 }
 .busca #searchInput {
     flex: 1;
@@ -47,11 +47,11 @@ h1 {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.562);
 }
 .busca button:hover {
-    background-color: #444;
+    background-color: #8aacdf;
 }
 
 .resultado {
-    width: 400px;
+    width: 300px;
     display: none;
     border: 1px dotted #FFF;
     margin-top: 20px;
